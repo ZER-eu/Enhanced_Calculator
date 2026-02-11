@@ -44,7 +44,10 @@ public class Enhanced_Calculator
            }
        }
 
-       System.out.println(result);
+       if(validOp)
+       {
+           System.out.println(result);
+       }
 
         scanner.close();
     }
